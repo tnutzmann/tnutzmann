@@ -12,15 +12,15 @@ h1, h2, h3 {
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: #c9d1d9;
-        background:#0d1117
+        color: #d4d9de;
+        background:#18122d
     }
 
     a:link {
-        color:#58a6ff
+        color:#f7a14b
     }
 
     a:visited {
-        color: #8e96f0
+        color: #f4b87d
     }
 }

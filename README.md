@@ -1,1 +1,2 @@
-# Hi! Ich bin Tony, Informatikstudent mit einer abgeschlossenen Ausbildung als Fachinformatiker.
+# Hi! 
+I'm Tony, a computer science student.

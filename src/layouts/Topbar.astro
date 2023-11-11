@@ -1,46 +1,41 @@
 ---
-interface Props {
-	title: string;
-}
-
-const { title } = Astro.props;
 ---
 <header class="topnav">
     <a href="/">TNUTZMANN</a>
     <div></div>
     <a href="/blog">Blog</a>
     <a href="/projects">Projects</a>
-    <a href="/contact">Contact</a>
 </header>
+<hr>
 
 <style>
-.topnav {
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-@media (max-width:480px) {
-    .topnav {
-        flex-direction: column;
+    hr {
+        border-top: 1px solid #d4d4d4;
     }
-}
+    .topnav {
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
 
-.topnav a {
-    color: orange;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.25rem;
-}
+    @media (max-width:480px) {
+        .topnav {
+            flex-direction: column;
+        }
+        .topnav div {
+            display: none;
+        }
+    }
 
-.topnav div {
-    flex-grow: 2; 
-}
+    .topnav a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
 
-.topnav a:hover {
-  color: #d4d4d4;
-}
-
+    .topnav div {
+        flex-grow: 2; 
+    }
 </style>

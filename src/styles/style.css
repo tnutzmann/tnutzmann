@@ -3,24 +3,44 @@ body {
     margin: 40px auto;
     padding: 0 10px;
     font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color:#444
+    color:#444;
 }
 
 h1, h2, h3 {
-    line-height:1.2
+    line-height: 1.2;
+    color: orange
+}
+
+a:link {
+    color: #444
+}
+
+a:visited {
+    color: #444
+}
+
+a:hover {
+    color: orange;
+}
+
+p {
+    text-align: justify;
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: #d4d9de;
-        background:#18122d
+        color: #d4d4d4;
+        background: rgb(16, 13, 39)
     }
 
     a:link {
-        color:#f7a14b
+        color: orange
     }
 
     a:visited {
-        color: #f4b87d
+        color: orange
+    }
+    a:hover {
+        color: #d4d4d4;
     }
 }

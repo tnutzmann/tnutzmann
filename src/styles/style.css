@@ -3,7 +3,7 @@
     --color-main: #444;
     --color-main-dark: #d4d4d4;
     --color-background: #fff;
-    --color-background-dark: #03000F;
+    --color-background-dark: #120030;
 }
 
 body {
@@ -20,8 +20,9 @@ h1, h2, h3 {
     line-height: 1.25;
 }
 
-a:link, a:visited{
+a, a:link, a:visited{
     color: var(--color-main);
+    transition: 0.25s;
 }
 
 a:hover {

@@ -40,7 +40,7 @@ hr {
     border-color: var(--color-background);
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     body, hr {
         color: var(--color-main-dark);
         background: var(--color-background-dark)

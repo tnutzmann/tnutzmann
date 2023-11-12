@@ -1,9 +1,9 @@
 :root {
-    --color-contrast: orange;
+    --color-contrast:  #CC4B00;
     --color-main: #444;
     --color-main-dark: #d4d4d4;
     --color-background: #fff;
-    --color-background-dark: rgb(16, 13, 39)
+    --color-background-dark: #03000F;
 }
 
 body {
@@ -40,7 +40,7 @@ hr {
     border-color: var(--color-background);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     body, hr {
         color: var(--color-main-dark);
         background: var(--color-background-dark)

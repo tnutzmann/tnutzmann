@@ -1,5 +1,6 @@
 :root {
     --color-contrast:  #CC4B00;
+    --color-contrast-dark:  #ff5e00;
     --color-main: #444;
     --color-main-dark: #d4d4d4;
     --color-background: #fff;
@@ -42,13 +43,14 @@ hr {
 }
 
 @media (prefers-color-scheme: dark) {
+
     body, hr {
         color: var(--color-main-dark);
         background: var(--color-background-dark)
     }
 
-    a:link, a:visited {
-        color: var(--color-contrast)
+    h1, h2, h3, a:link, a:visited {
+        color: var(--color-contrast-dark)
     }
     a:hover {
         color: var(--color-main-dark);

@@ -5,8 +5,8 @@ interface Props {
 
 const { title } = Astro.props;
 import "../styles/style.css"
-import Topnav from "./Topnav.astro";
-import Footer from "./Footer.astro"
+import TopNavBar from "../components/TopNavBar.astro";
+import Footer from "../components/Footer.astro"
 ---
 
 <!doctype html>
@@ -20,7 +20,7 @@ import Footer from "./Footer.astro"
 		<title>{title} - tnutzmann.de</title>
 	</head>
 	<body>
-		<Topnav/>
+		<TopNavBar/>
 		<main>
 
 			<slot />

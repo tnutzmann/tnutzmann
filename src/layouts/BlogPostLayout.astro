@@ -1,0 +1,10 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import BlogHeader from "../components/BlogHeader.astro"
+
+const {frontmatter} = Astro.props;
+---
+<BaseLayout title={frontmatter.title}>
+    <BlogHeader title={frontmatter.title} author={frontmatter.author} description={frontmatter.description} date={frontmatter.date} image={frontmatter.image} tags={frontmatter.tags}/>
+    <slot/>
+</BaseLayout>

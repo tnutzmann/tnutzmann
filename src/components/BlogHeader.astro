@@ -1,0 +1,40 @@
+---
+interface Props {
+	title: string,
+    author: string,
+    description: string,
+    date: string;
+    image: Record<string, string>;
+    tags: string[];
+}
+
+const { title, description, author, image, tags } = Astro.props
+const date = new Date(Astro.props.date)
+---
+<div class="post-info">
+    <div class="post-pub-info">
+        <div>Autor: { author }</div>
+        <div>{ date.toLocaleDateString() }</div>
+    </div>
+    <div class="post-tags">
+        { tags.map(tag => <span>#{ tag + ' '}</span>) }
+    </div>
+    <div class="post-description">{ description }</div>
+</div>
+<h1>{ title }</h1>
+{ image && <img src={ image.url } alt={ image.alt } /> }
+
+<style>
+    .post-info {
+        margin-top: 2rem;
+    }
+
+    .post-pub-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .post-description, .post-tags {
+        opacity: 75%;
+    }
+</style>

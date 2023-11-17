@@ -42,6 +42,11 @@ hr {
     border-color: var(--color-background);
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 @media (prefers-color-scheme: dark) {
 
     body, hr {

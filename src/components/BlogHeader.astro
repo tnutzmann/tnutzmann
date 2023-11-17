@@ -27,14 +27,15 @@ const date = new Date(Astro.props.date)
 <style>
     .post-info {
         margin-top: 2rem;
+        opacity: 75%;
+    }
+
+    .post-tags {
+        margin: 0.25rem 0;
     }
 
     .post-pub-info {
         display: flex;
         justify-content: space-between;
-    }
-
-    .post-description, .post-tags {
-        opacity: 75%;
     }
 </style>

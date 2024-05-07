@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: 'Mein erster Blogpost'
 date: 2023-11-17
-description: 'Der allererste Post auf meinem Blog! Alles "work in progress"'
+description: 'Der aller erste Post auf meinem Blog! Alles "work in progress"'
 author: 'Tony Nutzmann'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
@@ -14,7 +14,7 @@ Willkommen auf meinem Blog! Dies ist mein erster Post und dient mir hauptsächli
 
 ## Was bisher erreicht wurde
 
-1. **Astro Installieren**:  Als erstes habe ich mein erstes [Astro](https://astro.new/latest)-Projekt gestartet. Statt Node benutze ich [Bun](https://bun.sh)
+1. **Astro Installieren**:  Als erstes habe ich mein erstes [Astro](https://astro.new/latest)-Projekt gestartet.
 
 2. **Index Page**: Als nächstes habe ich meine erste [Page](/) erstellt und mithilfe eines Layouts mein Design standardisiert.
 

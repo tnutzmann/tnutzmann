@@ -7,8 +7,7 @@ author: 'Tony Nutzmann'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "WIP"]
---- 
+---
 
 Willkommen auf meinem Blog! Dies ist mein erster Post und dient mir hauptsächlich zum Testen.
 
@@ -22,4 +21,4 @@ Willkommen auf meinem Blog! Dies ist mein erster Post und dient mir hauptsächli
 
 ## Nächste Schritte
 
-Als nächstes geht es mir darum das Ihnaltsverzeichnis meines Blogs schöner zu gestalten. Danach soll es möglich werden anhand von Tags nach Blog-Posts zu filtern.
+Als nächstes geht es mir darum den Blog mit Inhalt zu füllen und das Inhaltsverzeichnis meines Blogs schöner zu gestalten.

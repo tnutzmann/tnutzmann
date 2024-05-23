@@ -23,13 +23,13 @@ wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 ```
 ## Run
-### simple
+### Simpel
 
 ```shell
 k3d cluster create
 ```
 Mit diesem einzigen Befehl wird ein K3s-Cluster mit zwei Containern erzeugt: Eine Kubernetes Control-Plane Node (Server) und ein Loadbalancer (Serverlb) davor. Beide werden in ein dediziertes Docker-Netzwerk eingebunden und die Kubernetes-API wird auf einem zufällig gewählten freien Port des Docker-Hosts bereitgestellt. Außerdem wird ein Docker-Volume für den Import von Container-Images erstellt.
-## Simple but Sophisticated
+### Anspruchsvoller
 
 ```shell
 k3d cluster create mycluster --api-port 127.0.0.1:6445 --servers 3 --agents 2 --volume '/home/me/mycode:/code@agent[*]' --port '8080:80@loadbalancer'
